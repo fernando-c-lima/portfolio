@@ -1,0 +1,24 @@
+:root,
+[data-theme='dark'] {
+  --bg: #120323;
+  --surface: #2f1848;
+  --pink: #ff5fa2;
+  --yellow: #ffd84d;
+  --ink: #fff4fa;
+  --muted: #cbb9e2;
+  --line: rgba(255, 244, 250, 0.14);
+  --accent-text: #ff5fa2;
+
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-pixel: 'Silkscreen', monospace;
+}
+
+[data-theme='light'] {
+  --bg: #f7f1fb;
+  --surface: #ffffff;
+  --ink: #120323;
+  --muted: #5a4870;
+  --line: rgba(47, 24, 72, 0.16);
+  --accent-text: #2f1848;
+}
